@@ -11,7 +11,7 @@ header
     justify-content: space-between;
     align-items: center;
     /*sets backgroudn color of property name*/
-    background-color: #1a032a;
+    background-color: rgb(23, 24, 26);
     padding: 10px 30px;
     position: sticky;
     top: 0;
@@ -19,7 +19,7 @@ header
 
 .logo img
 {
-    width: 30px;
+    width: 100px;
 }
 
 header h1
@@ -35,13 +35,16 @@ header h1
 .nav-bar
 {
     display: flex;
-    gap: 40px;
+    font-size: large;
+    gap: 30px;
     list-style-type: none;
+    padding-right: 30px;
 }
 
 .socials
 {
     padding-left: 30px;
+    padding-right: 10px;
     display: flex;
     gap: 10px;
 }
@@ -59,7 +62,7 @@ header h1
 
 .nav-bar .current
 {
-    color: #e9cc13;
+    color: gold;
 }
 
 a:link
@@ -82,9 +85,12 @@ a:hover
    width: 100%;
    padding-left: 10px;
    padding-bottom: 25px;
-   background-image: url(images/dont-even-joke-lad-8.jpg);
-   background-size: cover;
-   background-position: center;
+   background-color:#1d1c1e;
+}
+
+.content p
+{
+    color: gold;
 }
 
 .list-aboutme
@@ -98,13 +104,13 @@ a:hover
     border-style: groove;
     border-width: 2px;
     border-radius: 500px;
-    border-color: #e9cc13;
+    border-color: gold;
 }
 footer
 {
     width: 100%;
     text-align: center;
-    background-color: #1a032a;
+    background-color: #1d1c1e;
     color: #ffffff;
     position: fixed;
     bottom: 0px;
@@ -112,4 +118,21 @@ footer
     padding-bottom: 10px;
     font-size: 15px;
     font-style: bold;
+}
+
+.projects-table
+{
+    margin: auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.projects-table td, th
+{
+    border: 1px;
+    border-color: white;
+    border-style: double;
+    padding: 0.5px;
+    text-align: center;
+    color: white;
 }
