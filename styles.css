@@ -11,7 +11,7 @@ header
     justify-content: space-between;
     align-items: center;
     /*sets backgroudn color of property name*/
-    background-color: rgb(23, 24, 26);
+    background-color: rgba(23, 24, 26, 0.94);
     padding: 10px 30px;
     position: sticky;
     top: 0;
@@ -83,9 +83,9 @@ a:hover
 .content
 {
    width: 100%;
-   padding-left: 10px;
+   padding-top: 15px;
    padding-bottom: 25px;
-   background-color:#1d1c1e;
+   background-color:#1c1e1ce4;
 }
 
 .content p
@@ -100,7 +100,7 @@ a:hover
 
 .list-aboutme
 {
-    margin-left: 20px;
+    padding-left: 20px;
     list-style-type: square;
 }
 
@@ -115,7 +115,7 @@ footer
 {
     width: 100%;
     text-align: center;
-    background-color: #1d1c1e;
+    background-color:#1c1e1ce4;
     color: #ffffff;
     position: fixed;
     bottom: 0px;
@@ -127,12 +127,12 @@ footer
 
 .projects-table
 {
+    border-collapse: collapse;
     margin: auto;
     margin-top: 10px;
-    border-collapse: collapse;
 }
 
-.projects-table td, th
+.projects-table td, .projects-table th
 {
     border: 1px;
     border-color: white;
@@ -149,11 +149,15 @@ footer
     padding: 5px;
 }
 
-.content legend{
+.content legend
+{
+    color: white;
     text-align: center;
 }
+
 .content fieldset
 {
+    color: white;
     padding: 3px;
 }
 
