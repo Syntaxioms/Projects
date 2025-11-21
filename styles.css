@@ -32,10 +32,43 @@ header h1
     font-style: bold;
 }
 
+.intro-section h2
+{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.intro-text
+{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    color: white;
+    padding-left: 10px;
+}
+
+.skills-section, .career-goals
+{
+    margin-bottom: 2rem;
+}
+
+.skills-section h3, .career-goals h3
+{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.skills-list
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .nav-bar
 {
     display: flex;
     font-size: large;
+    font-weight: 1000;
     gap: 30px;
     list-style-type: none;
     padding-right: 30px;
@@ -83,17 +116,34 @@ a:hover
 .content
 {
    width: 100%;
+   height: 100vh;
    padding-top: 15px;
    padding-bottom: 25px;
+   padding-left: 15px;
    background-color:#1c1e1ce4;
 }
 
 .content p
 {
     color: gold;
+    font-weight: 1000;
 }
 
-.content .abtMeText{
+.contentP p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1c1e1ce4;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    font-size: 75px;
+    font-style: bold;
+}
+
+.content .abtMeText
+{
     color:gold;
     text-decoration: underline;
 }
@@ -115,7 +165,7 @@ footer
 {
     width: 100%;
     text-align: center;
-    background-color:#1c1e1ce4;
+    background-color:rgba(23, 24, 26, 0.94);
     color: #ffffff;
     position: fixed;
     bottom: 0px;
@@ -142,36 +192,45 @@ footer
     color: white;
 }
 
-.content form{
+.content form
+{
     width: fit-content;
     margin: auto;
     text-align: left;
-    padding: 5px;
+    padding: 150px;
 }
 
 .content legend
 {
     color: white;
     text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-style: bold;
 }
 
 .content fieldset
 {
     color: white;
     padding: 3px;
+    font-size: large;
+    font-weight: 500;
+    font-style: bold;
 }
 
-.content label{
+.content label
+{
     display: inline-block;
     vertical-align: top;
     width: 100px;
 }
 
-.content input, .content textarea{
+.content input, .content textarea
+{
     margin-bottom: 5px;
     width: 250px;
     padding: 6px;
-    border: 1px solid #bbb;
+    border: 5px solid #bbb;
     border-radius: 4px;
     font-size: 14px;
     box-sizing: border-box;
